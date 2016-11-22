@@ -10,7 +10,7 @@ module.exports = {
   module: {
     loaders: [
       // all files with a `.ts` or `.tsx` extension will be handled by `ts-loader` "bundle-loader",
-      { test: /\.ts$/, loaders: ["ts-loader"]}
+      { test: /\.ts$/, loaders: ["bundle-loader","ts-loader"]}
     ]
   }
 }
