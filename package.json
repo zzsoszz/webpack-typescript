@@ -1,0 +1,30 @@
+{
+  "name": "webpack-typescript",
+  "version": "1.0.0",
+  "description": "webpack-typescript",
+  "main": "1.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base . --inline --progress --port 8080",
+    "build": "webpack",
+    "postinstall": "tsd install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzsoszz/webpack-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzsoszz/webpack-typescript/issues"
+  },
+  "homepage": "https://github.com/zzsoszz/webpack-typescript#readme",
+  "devDependencies": {
+    "bundle-loader": "^0.5.4",
+    "jquery": "^3.1.1",
+    "ts-loader": "^1.2.2",
+    "tsd": "^0.6.5",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
