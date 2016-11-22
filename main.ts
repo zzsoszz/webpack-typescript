@@ -1,10 +1,10 @@
 import { sayHello } from "./greet";
+import * as $  from "jquery";
+import * as SystemJS from "systemjs";
 
 
-function hello(compiler: string) {
-    console.log(`Hello from ${compiler}`);
-}
-hello("TypeScript");
-
-
-console.log(sayHello("TypeScript"));
+$(document).ready(function(){
+    $("#btn").click(function(){
+          alert(sayHello("TypeScript"));
+    });
+});
